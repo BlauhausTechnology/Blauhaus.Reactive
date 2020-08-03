@@ -1,8 +1,8 @@
 ﻿using System.Reactive.Concurrency;
 
-namespace Blauhaus.Reactive.Abstractions.Scheduler
+namespace Blauhaus.Reactive.Abstractions.Schedulers
 {
-    public interface IReactiveScheduler
+    public interface IReactiveSchedulers
     {
         IScheduler CurrentThread { get; }
         IScheduler Immediate { get; }
